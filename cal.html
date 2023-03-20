@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>`MY_CALCULATOR</title>
+</head>
+<body>
+ <div class="calculator">
+    <div class="calc"> 
+     <div class="in"> 
+        <input type="text" name="" id="output">
+    </div> <br>
+        <div>
+        <button class="third" onclick="document.getElementById('output').value +='C'" > C </button> 
+        <button onclick="document.getElementById('output').value +='%'" > % </button>   
+        <button onclick="document.getElementById('output').value +='0'" > 0 </button>
+        
+     </div><br>
+     <div> 
+         <button onclick="document.getElementById('output').value +='7'" > 7 </button>
+         <button onclick="document.getElementById('output').value +='8'" > 8 </button>
+         <button onclick="document.getElementById('output').value +='9'" > 9 </button>
+         <button class="green" onclick="document.getElementById('output').value +='-'" > - </button>
+    </div><br>
+        <div> 
+        <button onclick="document.getElementById('output').value +='4'" > 4 </button>
+        <button onclick="document.getElementById('output').value +='5'" > 5 </button>
+        <button onclick="document.getElementById('output').value +='6'" > 6 </button>
+        <button class="green" onclick="document.getElementById('output').value +='+'" > + </button>
+    </div><br>
+    <div> 
+        <button onclick="document.getElementById('output').value +='1'" > 1 </button>
+        <button onclick="document.getElementById('output').value +='2'" > 2 </button>
+        <button onclick="document.getElementById('output').value +='3'" > 3 </button>
+        <button class="green" onclick="Document.getElementById('output').value +='='" > = </button>
+    </div><br>
+    <div> 
+        <button class="first" onclick="document.getElementById('output').value +='/'" > / </button>
+        <button class="first" onclick="document.getElementById('output').value +='.'" > . </button>
+        <button class="first" onclick="document.getElementById('output').value +='*'" > * </button>
+        <button class="green" onclick="document.getElementById('output').value +='**'"> ** </button>
+    </div>
+   </div> 
+ </div>
+    <script>
+
+    </script>
+   
+
+</body>
+</html>
